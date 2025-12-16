@@ -37,6 +37,8 @@
 
 (package-initialize)
 
+(setq make-backup-files nil) ;; disable backup
+
 (setq tool-bar-mode     0    ;; Remove toolbar
       scroll-bar-mode   0    ;; Remove scollbars
       menu-bar-mode     0    ;; Remove menu bar
