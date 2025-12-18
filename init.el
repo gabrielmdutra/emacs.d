@@ -63,6 +63,7 @@
   ;; if using package.el
   ;; :ensure t
   :custom (terraform-indent-level 4)
+  :custom (terraform-format-on-save t)
   :config
   (defun my-terraform-mode-init ()
     ;; if you want to use outline-minor-mode
