@@ -57,12 +57,7 @@
 (add-hook 'prog-mode-hook 'display-line-numbers-mode)
 
 (use-package terraform-mode
-  ;; if using straight
-  ;; :straight t
-
-  ;; if using package.el
-  ;; :ensure t
-  :custom (terraform-indent-level 4)
+  :custom (terraform-indent-level 2)
   :custom (terraform-format-on-save t)
   :config
   (defun my-terraform-mode-init ()
